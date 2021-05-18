@@ -1,0 +1,12 @@
+{
+    "name": "Comp Econ Fortran",
+
+    // Build from Dockerfile
+    "build": { "dockerfile": "Dockerfile" },
+
+    // Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"krvajalm.linter-gfortran",
+		"coenraads.bracket-pair-colorizer"
+	]
+}
